@@ -1,7 +1,7 @@
 {
-  "main.css": "/todo-list/static/css/main.24b006d0.chunk.css",
-  "main.js": "/todo-list/static/js/main.59dd04d3.chunk.js",
-  "main.js.map": "/todo-list/static/js/main.59dd04d3.chunk.js.map",
+  "main.css": "/todo-list/static/css/main.6efb10ef.chunk.css",
+  "main.js": "/todo-list/static/js/main.b0fec3c6.chunk.js",
+  "main.js.map": "/todo-list/static/js/main.b0fec3c6.chunk.js.map",
   "static/css/1.a41b4fbb.chunk.css": "/todo-list/static/css/1.a41b4fbb.chunk.css",
   "static/js/1.2acc8a3e.chunk.js": "/todo-list/static/js/1.2acc8a3e.chunk.js",
   "static/js/1.2acc8a3e.chunk.js.map": "/todo-list/static/js/1.2acc8a3e.chunk.js.map",
@@ -9,9 +9,9 @@
   "runtime~main.js.map": "/todo-list/static/js/runtime~main.6f47f260.js.map",
   "static/media/all.min.css": "/todo-list/static/media/fa-solid-900.82905d8d.svg",
   "static/media/mdb.css": "/todo-list/static/media/Roboto-Bold.e31fcf18.ttf",
-  "static/css/main.24b006d0.chunk.css.map": "/todo-list/static/css/main.24b006d0.chunk.css.map",
+  "static/css/main.6efb10ef.chunk.css.map": "/todo-list/static/css/main.6efb10ef.chunk.css.map",
   "static/css/1.a41b4fbb.chunk.css.map": "/todo-list/static/css/1.a41b4fbb.chunk.css.map",
   "index.html": "/todo-list/index.html",
-  "precache-manifest.787ed0793c6ed9de1972e6fa3ab79769.js": "/todo-list/precache-manifest.787ed0793c6ed9de1972e6fa3ab79769.js",
+  "precache-manifest.527af7796f5ccc9b4b959d5dfc7cd8df.js": "/todo-list/precache-manifest.527af7796f5ccc9b4b959d5dfc7cd8df.js",
   "service-worker.js": "/todo-list/service-worker.js"
 }
