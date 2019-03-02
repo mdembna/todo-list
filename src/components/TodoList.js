@@ -20,11 +20,11 @@ export default class TodoList extends Component {
   addTask(input) {
     if (input !== "") {
       let list = [...this.state.taskList];
-      list.push({ input: input, key: list.length });
+      list.push({ input: input, key: list.length + 1 })
       this.setState({
         userInput: "",
         taskList: list
-      });
+      })
     }
   }
 
@@ -43,6 +43,9 @@ export default class TodoList extends Component {
   }
 
   render() {
+    let placeholder =
+      "task number " + (this.state.taskList.length + 1) + ": ...";
+
     return (
       <div>
         <MDBCard className={styles.card}>
@@ -56,7 +59,7 @@ export default class TodoList extends Component {
               type="text"
               onChange={e => this.changeUserInput(e.target.value)}
               value={this.state.userInput}
-              placeholder="anything to do?"
+              placeholder={placeholder}
             />
             <MDBBtn
               className={styles.btn}
@@ -68,13 +71,15 @@ export default class TodoList extends Component {
           </div>
 
           {this.state.taskList.length === 0 ? (
-            <div className={styles.no_tasks}>no tasks for today! <i className="fas fa-smile"></i> </div>
+            <div className={styles.no_tasks}>
+              no tasks for today! <i className="fas fa-smile" />{" "}
+            </div>
           ) : null}
 
           <MDBListGroup className={styles.task_list}>
             {this.state.taskList.map(task => (
               <MDBListGroupItem key={task.key} className={styles.task}>
-                <em className={styles.number}>task no. {task.key + 1}:</em>
+                <em className={styles.number}>task number {task.key}:</em>
                 {task.input}
               </MDBListGroupItem>
             ))}

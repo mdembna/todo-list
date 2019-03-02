@@ -1,7 +1,7 @@
 .card {
-  width: 80vw;
+  width: 90vw;
   min-height: 50vh;
-  margin: 5vh 0 5vh 0;
+  margin: 2vh 0 5vh 0;
   padding: 30px;
 }
 
@@ -61,15 +61,17 @@
   }
 }
 @media screen and (min-width: 500px) {
-    .btn {
-      border-radius: 30px;
-      height: 60px;
-      width: 180px;
-      font-size: 16px;
-    }
+  .btn {
+    border-radius: 30px;
+    height: 60px;
+    width: 180px;
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 700px) {
-
+    .card {
+        margin: 5vh 0 5vh 0;
+      }
   .form {
     font-size: 20px;
   }
@@ -90,3 +92,9 @@
     justify-content: flex-end;
   }
 }
+
+@media screen and (min-width: 1200px) {
+    .card {
+        width: 70vw;
+      }
+    }
