@@ -8,10 +8,10 @@
   "runtime~main.js": "/todo-list/static/js/runtime~main.6f47f260.js",
   "runtime~main.js.map": "/todo-list/static/js/runtime~main.6f47f260.js.map",
   "static/media/all.min.css": "/todo-list/static/media/fa-solid-900.82905d8d.svg",
-  "static/media/mdb.css": "/todo-list/static/media/Roboto-Regular.df7b648c.ttf",
+  "static/media/mdb.css": "/todo-list/static/media/Roboto-Bold.e31fcf18.ttf",
   "static/css/main.24b006d0.chunk.css.map": "/todo-list/static/css/main.24b006d0.chunk.css.map",
   "static/css/1.a41b4fbb.chunk.css.map": "/todo-list/static/css/1.a41b4fbb.chunk.css.map",
   "index.html": "/todo-list/index.html",
-  "precache-manifest.5c968f25d56087914b005c62db44b03f.js": "/todo-list/precache-manifest.5c968f25d56087914b005c62db44b03f.js",
+  "precache-manifest.787ed0793c6ed9de1972e6fa3ab79769.js": "/todo-list/precache-manifest.787ed0793c6ed9de1972e6fa3ab79769.js",
   "service-worker.js": "/todo-list/service-worker.js"
 }
