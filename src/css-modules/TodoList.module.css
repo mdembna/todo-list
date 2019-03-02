@@ -1,0 +1,90 @@
+.card {
+  width: 80vw;
+  min-height: 50vh;
+  margin: 5vh 0 5vh 0;
+  padding: 30px;
+}
+
+.btn {
+  border-radius: 6vw;
+  height: 12vw;
+  width: 36vw;
+  padding: 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user_input {
+  border: 1px solid #78909c;
+  border-radius: 10px;
+  background-color: rgba(43, 187, 173, 0.1);
+  height: 80px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.user_input::placeholder {
+  opacity: 0.5;
+  color: #78909c;
+}
+
+.task_list {
+  margin-top: 3vh;
+}
+
+.no_tasks {
+  color: #78909c;
+  margin-top: 5vh;
+}
+
+.number {
+  color: #2bbbad;
+  text-decoration: underline;
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.btn_group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 320px) {
+  .btn {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .btn {
+    border-radius: 30px;
+    height: 60px;
+    width: 180px;
+    font-size: 16px;
+  }
+
+  .form {
+    font-size: 20px;
+  }
+
+  .user_input {
+    font-size: 20px;
+  }
+
+  .no_tasks {
+    font-size: 20px;
+  }
+
+  .task {
+    font-size: 20px;
+  }
+
+  .btn_group {
+    justify-content: flex-end;
+  }
+}
