@@ -60,13 +60,15 @@
     font-size: 10px;
   }
 }
+@media screen and (min-width: 500px) {
+    .btn {
+      border-radius: 30px;
+      height: 60px;
+      width: 180px;
+      font-size: 16px;
+    }
+}
 @media screen and (min-width: 700px) {
-  .btn {
-    border-radius: 30px;
-    height: 60px;
-    width: 180px;
-    font-size: 16px;
-  }
 
   .form {
     font-size: 20px;
